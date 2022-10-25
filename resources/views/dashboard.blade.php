@@ -9,9 +9,9 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    <div class="font-medium text-base text-gray-800">Your ID: {{ Auth::user()->id }}</div>
-                    <div class="font-medium text-base text-gray-800">Your Login: {{ Auth::user()->name }}</div>
-                    <div class="font-medium text-sm text-gray-500">Your E-mail: {{ Auth::user()->email }}</div>
+                    <div class="font-medium text-base text-gray-800">Your ID: {{ $id }}</div>
+                    <div class="font-medium text-base text-gray-800">Your Login: {{ $name }}</div>
+                    <div class="font-medium text-sm text-gray-500">Your E-mail: {{ $email }}</div>
                 </div>
             </div>
         </div>
